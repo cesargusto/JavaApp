@@ -14,7 +14,7 @@ public class JavaApplication1 {
         System.out.println(p1.imprimePessoa());
         System.out.println(p2.imprimePessoa());
         Carro car = new Carro();
-        System.out.println(car.piloto.nome);
+        System.out.println(car.piloto.getNome());
         Carro car2 = new Carro(p2);
         System.out.println("Piloto do Carro 2 : \n"+car2.piloto.imprimePessoa());
         
